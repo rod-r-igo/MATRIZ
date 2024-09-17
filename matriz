@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+     
+inteiro linha, coluna, matriz[2][3]={{2,3,5},{3,5,7}}
+
+para(linha=0;linha<2;linha++){
+   para(coluna=0;coluna<3;coluna++){
+    escreva(matriz[linha][coluna])
+   }
+escreva("\n")
+}
+
+  }
+}
